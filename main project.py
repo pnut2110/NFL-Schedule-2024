@@ -5,7 +5,7 @@ import os
 
 is_paused = False
 
-image_dir = 'G:\\Python\\Logo and weekly opponents\\NFL Logos'
+image_dir = 'NFL Logos'
 image_files = [os.path.join(image_dir, file) for file in os.listdir(image_dir) if file.endswith('.png')]
 
 root = tk.Tk()

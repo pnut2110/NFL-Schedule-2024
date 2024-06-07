@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the .xlsx file
-df = pd.read_excel('G:\\Python\\Logo and weekly opponents\\NFL Schedule.xlsx')
+df = pd.read_excel('NFL Schedule.xlsx')
 
 # If the Excel file does not contain headers, you can add them
 df.columns = ['Team'] + [f'Opponent_{i}' for i in range(1, 19)]  # Adjust as necessary
